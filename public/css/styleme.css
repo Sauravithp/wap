@@ -1,0 +1,26 @@
+body{
+    background-color: #f5f3dc;
+}
+
+body span{
+    color: #ff9900;
+}
+
+h1,h3 {
+    color: #00bbff;
+    font-family: Verdana;
+}
+
+#movies  a{
+    color: rgba(255, 0, 0, 0.92);
+    font-family: "Trebuchet MS";
+}
+
+#movies > ul{
+    list-style-type: decimal;
+}
+
+.neighbours   li >  a{
+    color: red;
+    font-family: "Trebuchet MS";
+}
