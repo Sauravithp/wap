@@ -1,0 +1,4 @@
+ul > li { background-color: blue; }
+li strong { color: red; }
+li > strong { color: green; }
+#ad li.line strong { text-decoration: underline; }
