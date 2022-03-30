@@ -27,6 +27,7 @@ h1,h3::first-letter{
 
 #moviesdetails{
     list-style-type: none;
+    text-indent: -40px;
 }
 
 #moviesdetails li ul{
