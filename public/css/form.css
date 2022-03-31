@@ -1,3 +1,6 @@
+*{
+    font-weight: bold;
+}
 #form{
     display: flex;
     flex-direction: row;
@@ -18,7 +21,8 @@ header{
     padding: 10px 10px 40px 10px;
 }
 
-#register{
+#register,#lunch, #paymentDetails{
+    font-weight: normal;
     text-decoration: underline;
 }
 
@@ -67,10 +71,16 @@ input[type="reset"]{
 }
 
 
-#state{
+#state,#bankName,#payable{
     margin-left:35px;
     margin-bottom: 30px;
 }
+
+#payable{
+    margin-left:125px;
+    margin-bottom: 30px;
+}
+
 
 
 
