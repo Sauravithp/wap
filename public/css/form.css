@@ -4,7 +4,7 @@
 }
 
 input[type="text"]{
-    margin-right:200px;
+    margin-right:150px;
     width: 300px;
 }
 
@@ -47,22 +47,8 @@ input[type="reset"]{
 }
 
 .input-class {
-    margin-left:100px;
+    margin-left:90px;
     margin-bottom: 30px;
 }
 
-#address,#city {
-    margin-left: 115px;
-    margin-bottom: 30px;
-}
-
-#city {
-    margin-left: 140px;
-    margin-bottom: 30px;
-}
-
-#state {
-    margin-left: 3px;
-    margin-bottom: 30px;
-}
 
