@@ -1,4 +1,23 @@
-ul > li { background-color: blue; }
+
 li strong { color: red; }
+
+ul > li { background-color: blue;
+color: black;
+}
+
+ul>li{
+    color: beige;
+}
+
+
 li > strong { color: green; }
-#ad li.line strong { text-decoration: underline; }
+
+li.line{
+    color: aqua;
+}
+
+.line{
+    color: red !important;
+}
+
+
