@@ -47,8 +47,31 @@ input[type="reset"]{
 }
 
 .input-class {
-    margin-left:90px;
+    margin-left:100px;
     margin-bottom: 30px;
 }
+
+#address {
+    margin-left:115px;
+    margin-bottom: 30px;
+}
+
+#city {
+    margin-left:140px;
+    margin-bottom: 30px;
+}
+
+#phone, #email ,#country{
+    margin-left:129px;
+    margin-bottom: 30px;
+}
+
+
+#state{
+    margin-left:35px;
+    margin-bottom: 30px;
+}
+
+
 
 
