@@ -1,0 +1,68 @@
+#form{
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="text"]{
+    margin-right:200px;
+    width: 300px;
+}
+
+span{
+    color: red;
+}
+
+header{
+    background-color: darkseagreen;
+    height: 30px;
+    padding: 10px 10px 40px 10px;
+}
+
+#register{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: darkseagreen;
+    height: 20px;
+    padding: 10px 10px 40px 10px;
+}
+
+footer div{
+    text-align: center;
+}
+
+input[type="submit"]{
+    padding:12px
+}
+
+input[type="reset"]{
+    padding:12px
+}
+
+#payment-details{
+    display: flex;
+    flex-direction: column;
+    padding-left: 120px;
+}
+
+.input-class {
+    margin-left:100px;
+    margin-bottom: 30px;
+}
+
+#address,#city {
+    margin-left: 115px;
+    margin-bottom: 30px;
+}
+
+#city {
+    margin-left: 140px;
+    margin-bottom: 30px;
+}
+
+#state {
+    margin-left: 3px;
+    margin-bottom: 30px;
+}
+

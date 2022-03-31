@@ -3,39 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <title>Form</title>
-    <link href="public/css/form.css" type="text/css"  rel="stylesheet">
+    <link href="public/css/form.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-<header>Workshop Registration</header>
+<header><h2>Workshop Registration</h2></header>
 
 <section>
-    <p>Register now while seats are available!</p>
+    <p id="register">Register now while seats are available!</p>
     <form>
         <div id="form">
             <div>
                 <label>First Name <span>*</span> </label>
-                <input id="firstName" type="text" name="firstName" size="20" maxlength="100" placeholder="firstName">
+                <input id="firstName" class="input-class" type="text" name="firstName"   maxlength="100" placeholder="firstName">
                 <br/>
                 <label>Last Name <span>*</span> </label>
-                <input id="lastName" type="text" name="lastName" size="20" maxlength="100" placeholder="lastName">
+                <input id="lastName" class="input-class" type="text" name="lastName"  maxlength="100" placeholder="lastName">
                 <br/>
 
-                <label>Company Institution<span>*</span> </label>
-                <input id="companyInstitution" type="text" name="companyInstitution" size="20" maxlength="100"
-                       placeholder="companyInstitution">
+                <label>Institution <span>*</span> </label>
+                <input id="institution" class="input-class" type="text" name="institution"  maxlength="100" placeholder="institution">
                 <br/>
 
-                <label>Address<span>*</span> </label>
-                <textarea id="address" type="text" name="address" size="20" maxlength="100"
-                          placeholder="address"></textarea>
+                <label>Address <span>*</span> </label>
+                <input id="address" class="input-class" type="text" name="address"  maxlength="100" placeholder="address">
                 <br/>
 
-                <label>City<span>*</span> </label>
-                <input id="city" type="text" name="city" size="20" maxlength="100" placeholder="city">
+                <label>City <span>*</span> </label>
+                <input id="city" class="input-class" type="text" name="city"  maxlength="100" placeholder="city">
                 <br/>
 
-                <label>State/Province/Region<span>*</span> </label>
-                <select name="state">
+                <label>State/Province/Region</label>
+                <select id="state" name="state" class="input-class">
                     <option>Iowa</option>
                     <option>Minnesota</option>
                     <option>Washington</option>
@@ -43,8 +41,8 @@
                 </select>
                 <br/>
 
-                <label>Country<span>*</span> </label>
-                <select name="country">
+                <label>Country</label>
+                <select id="country" class="input-class" name="country">
                     <option>US</option>
                     <option>Nepal</option>
                     <option>China</option>
@@ -53,31 +51,32 @@
                 <br/>
 
                 <label>Phone<span>*</span> </label>
-                <textarea id="phone" type="text" name="address" size="20" maxlength="10"
-                          placeholder="phone"></textarea>
+                <input id="phone" class="input-class" type="text" name="phone" size="20" maxlength="100" placeholder="phone">
+
                 <br/>
 
                 <label>Email<span>*</span> </label>
-                <input id="email" type="text" name="email" size="20" maxlength="100" placeholder="email">
+                <input id="email" class="input-class" type="text" name="email" size="20" maxlength="100" placeholder="email">
                 <br/>
 
             </div>
 
             <div>
-                <p>Lunch</p>
-                <form>
-                    <label>Meal Preference<span>*</span> </label>
-                    <select name="meal">
-                        <option>Veg</option>
-                        <option>Non-Veg</option>
-                        <option>Vegan</option>
-                        <option>gluton free</option>
-                    </select>
-                </form>
+                <lable id="lunch">Lunch</lable>
+                <br/>
+                <br/>
+                <label>Meal Preference </label>
+                <select class="input-class" name="meal">
+                    <option>Veg</option>
+                    <option>Non-Veg</option>
+                    <option>Vegan</option>
+                    <option>gluton free</option>
+                </select>
 
-                <p>Payment Details</p>
-                <form>
-                    <label>Payment Mode<span>*</span> </label>
+                <p id="paymentDetails">Payment Details</p>
+                <label>Payment Mode</label>
+
+                <div id="payment-details" class="input-class">
                     <label> <input type="checkbox" name="cash" value="cash"
                                    checked="checked"/> Cash</label>
                     <br/>
@@ -86,20 +85,22 @@
                     <br/>
                     <label> <input type="checkbox" name="dDraft" value="dDraft"
                                    checked="checked"/>Demand Draft</label>
+                </div>
 
-                    <label>DD/ChequeNo<span>*</span> </label>
-                    <input id="chequeNo" type="text" name="chequeNo" size="20" maxlength="100" placeholder="chequeNo">
-                    <br/>
+                <br/>
+                <label>DD/ChequeNo</label>
+                <input id="chequeNo" class="input-class" type="text" name="chequeNo" size="20" maxlength="100" placeholder="chequeNo">
+                <br/>
+                <br/>
 
-                    <label>Drawn On(Bank Name)<span>*</span> </label>
-                    <input id="bankName" type="text" name="bankName" size="20" maxlength="100" placeholder="bankName">
-                    <br/>
+                <label>Drawn On(Bank Name)</label>
+                <input id="bankName" type="text" class="input-class" name="bankName" size="20" maxlength="100" placeholder="bankName">
+                <br/>
+                <br/>
 
-                    <label>Payable at<span>*</span> </label>
-                    <input id="payable" type="text" name="payable" size="20" maxlength="100" placeholder="payable">
-                    <br/>
-
-                </form>
+                <label>Payable at </label>
+                <input id="payable" class="input-class" type="text" name="payable" size="500" maxlength="100" placeholder="payable">
+                <br/>
                 <br/>
             </div>
         </div>
@@ -107,7 +108,7 @@
 </section>
 
 <footer>
-   <input type="submit">    <input type="reset">
+    <div><input type="submit"> <input type="reset"></div>
 </footer>
 </body>
 </html>
