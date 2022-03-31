@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<header>Workshop Registration</header>
+
+<section>
+    <p>Register now while seats are available!</p>
+    <form>
+        <div id="form">
+            <div>
+                <label>First Name <span>*</span> </label>
+                <input id="firstName" type="text" name="firstName" size="20" maxlength="100" placeholder="firstName">
+                <br/>
+                <label>Last Name <span>*</span> </label>
+                <input id="lastName" type="text" name="lastName" size="20" maxlength="100" placeholder="lastName">
+                <br/>
+
+                <label>Company Institution<span>*</span> </label>
+                <input id="companyInstitution" type="text" name="companyInstitution" size="20" maxlength="100"
+                       placeholder="companyInstitution">
+                <br/>
+
+                <label>Address<span>*</span> </label>
+                <textarea id="address" type="text" name="address" size="20" maxlength="100"
+                          placeholder="address"></textarea>
+                <br/>
+
+                <label>City<span>*</span> </label>
+                <input id="city" type="text" name="city" size="20" maxlength="100" placeholder="city">
+                <br/>
+
+                <label>State/Province/Region<span>*</span> </label>
+                <select name="state">
+                    <option>Iowa</option>
+                    <option>Minnesota</option>
+                    <option>Washington</option>
+                    <option>California</option>
+                </select>
+                <br/>
+
+                <label>Country<span>*</span> </label>
+                <select name="country">
+                    <option>US</option>
+                    <option>Nepal</option>
+                    <option>China</option>
+                    <option>India</option>
+                </select>
+                <br/>
+
+                <label>Phone<span>*</span> </label>
+                <textarea id="phone" type="text" name="address" size="20" maxlength="10"
+                          placeholder="phone"></textarea>
+                <br/>
+
+                <label>Email<span>*</span> </label>
+                <input id="email" type="text" name="email" size="20" maxlength="100" placeholder="email">
+                <br/>
+
+            </div>
+
+            <div>
+                <p>Lunch</p>
+                <form>
+                    <label>Meal Preference<span>*</span> </label>
+                    <select name="meal">
+                        <option>Veg</option>
+                        <option>Non-Veg</option>
+                        <option>Vegan</option>
+                        <option>gluton free</option>
+                    </select>
+                </form>
+
+                <p>Payment Details</p>
+                <form>
+                    <label>Payment Mode<span>*</span> </label>
+                    <label> <input type="checkbox" name="cash" value="cash"
+                                   checked="checked"/> Cash</label>
+                    <br/>
+                    <label> <input type="checkbox" name="cheque" value="cheque"
+                                   checked="checked"/> Cheque</label>
+                    <br/>
+                    <label> <input type="checkbox" name="dDraft" value="dDraft"
+                                   checked="checked"/>Demand Draft</label>
+
+                    <label>DD/ChequeNo<span>*</span> </label>
+                    <input id="chequeNo" type="text" name="chequeNo" size="20" maxlength="100" placeholder="chequeNo">
+                    <br/>
+
+                    <label>Drawn On(Bank Name)<span>*</span> </label>
+                    <input id="bankName" type="text" name="bankName" size="20" maxlength="100" placeholder="bankName">
+                    <br/>
+
+                    <label>Payable at<span>*</span> </label>
+                    <input id="payable" type="text" name="payable" size="20" maxlength="100" placeholder="payable">
+                    <br/>
+
+                </form>
+                <br/>
+            </div>
+        </div>
+    </form>
+</section>
+
+<footer>
+   <input type="submit">    <input type="reset">
+</footer>
+</body>
+</html>
