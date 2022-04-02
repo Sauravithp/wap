@@ -109,7 +109,7 @@ let result = function (stringList) {
     return finalArray;
 };
 
-console.log("Function Expression using function expression");
+console.log("Function Expression");
 console.log("array with a and length more than 5: " + result(stringArray));
 document.write("Function Expression using function expression" + "<br/>")
 document.write(result(stringArray) + "<br/>");
