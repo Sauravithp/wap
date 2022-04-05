@@ -32,7 +32,6 @@ function makeArmy() {
 }
 
 let army = makeArmy();
-// let fn=army[0]
-// fn();
-army.forEach(f=>f())
+let fn=army[0]
+fn();
 
