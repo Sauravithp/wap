@@ -23,6 +23,8 @@ student1.grades = [];
 student1.inputNewGrades(1);
 student1.inputNewGrades(2);
 
+console.log(student1);
+
 
 let student2 = Object.create(student);
 student2.firstName = 'Manju';
@@ -73,6 +75,9 @@ Student.prototype.computeAverageGrades = function () {
 let student4 = new Student("Suman", "Acharya");
 student4.inputNewGrades(5)
 student4.inputNewGrades(6)
+
+console.log(student4);
+
 
 let student5 = new Student("Mandevi", "Budathoki");
 student5.inputNewGrades(3)
