@@ -92,11 +92,6 @@ for (let i = 0; i < stdArray.length; i++) {
 
 console.log(total1 / students.length);
 
-
-/*
-Questio No 3
- */
-
 /*
 Question no 4 with constructor
  */
@@ -124,15 +119,15 @@ singleyList1.add(1);
 singleyList1.add(2);
 singleyList1.add(3);
 
-console.log(singleyList1.list.forEach(s=>console.log(s)))
+console.log(singleyList1.list);
+
 singleyList1.remove(2);
-console.log(singleyList1.list.forEach(s=>console.log(s)))
+
+console.log(singleyList1.list);
 
 /*
 Question no 4 with object literals
  */
-
-console.log("Question no 4 with object literals </br>");
 
 let linkedList={
      list:[],
@@ -155,6 +150,7 @@ linkedlist.list=[];
 linkedlist.add(1);
 linkedlist.add(2);
 linkedlist.add(3);
-console.log(linkedlist.list.forEach(s=>console.log(s)))
+
+console.log(linkedlist.list)
 linkedlist.remove(2);
-console.log(linkedlist.list.forEach(s=>console.log(s)))
+console.log(linkedlist.list)
