@@ -2,16 +2,20 @@
 Write a function printNumbers(from,to) that outputs a number every second,starting from and ending with to
  */
 
-function printNumbers(from,to) {
-    var current=from;
-    setInterval(function (){
-    if(current<= to){
-        console.log(current);
-        current++;
-    }
-}, 1000)
-}
+function printNumbers(from, to) {
+    var current = from;
+    let timerId = setInterval(function () {
+        console.log("test")
+        if (current <= to) {
+            console.log(current);
+            current++;
+        }else{
+            clearInterval(timerId)
+        }
+    }, 1000)
 
+
+}
 
 printNumbers(1, 3);
 
@@ -32,6 +36,6 @@ function makeArmy() {
 }
 
 let army = makeArmy();
-let fn=army[0]
+let fn = army[0]
 fn();
 

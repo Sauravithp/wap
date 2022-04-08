@@ -1,59 +1,15 @@
-/*h1{*/
-/*    width: 500px;*/
-/*    height: 40px;*/
-/*    border-left: thick dotted #CC0088;*/
-/*    border-bottom-color: rgb(0, 128, 128);*/
-/*    border-bottom-style: dotted;*/
-/*    padding: 50px 50px 50px 50px;*/
-/*    margin: 50px 50px 50px 50px;*/
-/*}*/
-
-
-/*li strong { color: red; }*/
-
-/*ul > li { background-color: blue;*/
-/*color: black;*/
-/*}*/
-
-/*ul>li{*/
-/*    color: beige;*/
-/*}*/
-
-
-/*li > strong { color: green; }*/
-
-/*li.line{*/
-/*    color: aqua;*/
-/*}*/
-
-/*.line{*/
-/*    color: red !important;*/
-/*}*/
-
-#test{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap ;
-    justify-content: space-between;
+div {
+    border: 1px solid;
 }
 
-.item{
-    width: 150px;
-    margin: 5px;
-    border: 5px solid red;
-    padding: 10px 10px 10px 10px;
+#a {
+    height: 350px;
+    border-color: pink;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto ;
-    background-color: #2196F3;
-    padding: 10px;
-}
-.grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
+.floaty {
+    float: right;
+    width: 100px;
+    height: 50px;
+    border-color: red;
 }
