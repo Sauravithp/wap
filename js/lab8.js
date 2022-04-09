@@ -98,6 +98,27 @@ for (let i = 0; i < stdArray.length; i++) {
 console.log(total1 / students.length);
 
 /*
+Question no 3
+ */
+let arr=[10,6,4,8,11,3,1,6]
+
+Array.prototype.sort = function () {
+    let arr = this;
+    let len = arr.length;
+    for (let i = len - 1; i >= 0; i--) {
+        for (let j = 1; j <= i; j++) {
+            if (arr[j - 1] > arr[j]) {
+                let temp = arr[j - 1];
+                arr[j - 1] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    return arr;
+}
+console.log(arr.sort());
+
+/*
 Question no 4 with constructor
  */
 
