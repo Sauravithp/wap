@@ -118,19 +118,20 @@ Array.prototype.sort = function () {
 }
 console.log(arr.sort());
 
+
 /*
 Question no 4 with constructor
  */
 
-function SingleyList(){
+function SinglyList(){
     this.list=[];
 }
 
-SingleyList.prototype.add=function (number){
+SinglyList.prototype.add=function (number){
     this.list.push(number);
 }
 
-SingleyList.prototype.remove=function (number){
+SinglyList.prototype.remove=function (number){
     let test=[];
     for (let i=0;i<this.list.length;i++){
         if(this.list[i]!=number){
@@ -140,16 +141,16 @@ SingleyList.prototype.remove=function (number){
     this.list=test;
 }
 
-let singleyList1=new SingleyList();
-singleyList1.add(1);
-singleyList1.add(2);
-singleyList1.add(3);
+let singlyList=new SinglyList();
+singlyList.add(1);
+singlyList.add(2);
+singlyList.add(3);
 
-console.log(singleyList1.list);
+console.log(singlyList.list);
 
-singleyList1.remove(2);
+singlyList.remove(2);
 
-console.log(singleyList1.list);
+console.log(singlyList.list);
 
 /*
 Question no 4 with object literals
@@ -171,12 +172,12 @@ let linkedList={
     }
 }
 
-let linkedlist=Object.create(linkedList);
-linkedlist.list=[];
-linkedlist.add(1);
-linkedlist.add(2);
-linkedlist.add(3);
+let linkedListObj=Object.create(linkedList);
+linkedListObj.list=[];
+linkedListObj.add(1);
+linkedListObj.add(2);
+linkedListObj.add(3);
 
-console.log(linkedlist.list)
-linkedlist.remove(2);
-console.log(linkedlist.list)
+console.log(linkedListObj.list)
+linkedListObj.remove(2);
+console.log(linkedListObj.list)
